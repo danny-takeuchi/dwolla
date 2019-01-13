@@ -8,4 +8,6 @@ install:
   - pip install requests
 # command to run tests
 script:
-  - weather
+  - python weather.py
+  - python weather.py Boise
+  - python weather.py Boise extraArg
