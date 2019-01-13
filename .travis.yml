@@ -1,6 +1,5 @@
 language: python
 python:
-  - "2.7"
   - "3.5"
 
 # command to install dependencies
@@ -10,4 +9,3 @@ install:
 script:
   - python weather.py < testing.txt
   - python weather.py Boise
-  - python weather.py Boise extraArg
